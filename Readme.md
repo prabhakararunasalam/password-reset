@@ -29,3 +29,9 @@ This is the backend of the password reset flow, implemented using Node.js, Expre
 - **nodemailer**: For sending email notifications.
 
 ---
+
+## Postman Documantation
+
+https://documenter.getpostman.com/view/39189138/2sAYJAcwy1
+
+---

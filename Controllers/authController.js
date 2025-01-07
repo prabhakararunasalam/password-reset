@@ -76,7 +76,7 @@ export const forgotPassword = async (req, res) => {
     user.resetTokenExpiry = expiresAt;
     await user.save();
 
-    const resetLink = `http://localhost:5173/reset-password/${token}`;
+    const resetLink = `https://authuser-frontend.netlify.app/reset-password/${token}`;
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
